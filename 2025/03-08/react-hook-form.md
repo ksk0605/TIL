@@ -397,4 +397,5 @@ export default function SignUpForm() {
 이러한 개선사항들로 인해 폼 관련 코드의 품질이 전반적으로 향상되었으며, 향후 유지보수와 기능 확장이 더욱 용이해졌다.
 
 ## Reference 
+* [공식 문서](https://www.react-hook-form.com/)
 * [react-hook-form을 선택한 이유와 적용 과정](https://tech.inflab.com/202207-rallit-form-refactoring/react-hook-form/)
