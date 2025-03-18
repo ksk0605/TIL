@@ -136,3 +136,7 @@ print(f"리스트 슬라이싱 복사 시간: {end - start:.5f} 초")
 3. 각 요소마다 PyObject 래핑이 발생한다
 
 따라서 대량의 데이터를 다룰 때는 가능한 한 슬라이싱을 사용하는 것이 좋다. 이는 파이썬의 내부 구현을 이해하고 활용하는 좋은 예시가 된다.
+
+# 레퍼런스 
+* [파이썬 공식 레포](https://github.com/python/cpython/blob/c353764fd564e401cf47a5d9efab18c72c60014e/Objects/listobject.c#L440)
+* [스택오버플로우](https://stackoverflow.com/questions/13203601/big-o-of-list-slicing/13203625)
